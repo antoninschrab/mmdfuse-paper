@@ -1,0 +1,34 @@
+name: autogluon-env
+channels:
+  - conda-forge
+  - nvidia
+  - pytorch
+dependencies:
+  - python=3.9
+  - pip=22.3.1
+  - numpy
+  - scipy
+  - chex
+  - cuda-nvcc=11.6
+  - cuda-toolkit<12
+  - jaxlib=0.4.6=*cuda112*
+  - jax=0.4.6
+  - pytorch=1.13.1=*cuda*
+  - optax
+  - flax
+  - ipywidgets
+  - pandas
+  - setuptools<60.0
+  - jupyterlab
+  - matplotlib
+  - seaborn
+  - tqdm
+  - tensorboard
+  - torchvision
+  - tornado
+  - nodejs
+  - pip:
+    - git+https://github.com/mwalmsley/galaxy_mnist.git
+    - tensorflow
+    - tensorstore
+    - autotst
