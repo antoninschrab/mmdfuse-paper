@@ -47,8 +47,8 @@ All the experiments are comprised of 'embarrassingly parallel for loops', signif
 ## Samplers
 
 - [Sampler Mixture of Gaussians](sampler_mixture.py)
-- [Sampler Perturbed Uniform](sampler_mixture.py)
-- [Sampler GalaxyMNIST](sampler_mixture.py)
+- [Sampler Perturbed Uniform](sampler_perturbations.py)
+- [Sampler GalaxyMNIST](sampler_galaxy.py)
 
 ## How to use MMD-FUSE in practice?
 
