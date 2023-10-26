@@ -31,7 +31,7 @@ conda activate mmdfuse-env
 
 ## Reproducing the experiments of the paper
 
-The results of the five experiments can be reproduced by running the code in the notebooks: [experiments_mixture.ipynb](experiments_mixture.ipynb), [experiments_perturbations.ipynb](experiments_perturbations.ipynb), [experiments_galaxy.ipynb](experiments_galaxy.ipynb), [experiments_cifar.ipynb](experiments_cifar.ipynb), and [experiments_runtimes.ipynb](experiments_runtimes.ipynb).
+The results of the six experiments can be reproduced by running the code in the notebooks: [experiments_mixture.ipynb](experiments_mixture.ipynb), [experiments_perturbations.ipynb](experiments_perturbations.ipynb), [experiment_perturbations_vary_kernel.ipynb](experiment_perturbations_vary_kernel.ipynb), [experiments_galaxy.ipynb](experiments_galaxy.ipynb), [experiments_cifar.ipynb](experiments_cifar.ipynb), and [experiments_runtimes.ipynb](experiments_runtimes.ipynb).
 
 The results are saved as `.npy` files in the directory `results`.
 The figures of the paper can be obtained from these by running the code in the [figures.ipynb](figures.ipynb) notebook.
